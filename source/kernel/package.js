@@ -18,5 +18,6 @@ enyo.depends(
 	'Router.js',
 	'ViewController.js',
 	'Application.js',
-	'jobs.js'
+	'jobs.js',
+    'Promise.js'
 );
