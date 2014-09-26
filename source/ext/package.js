@@ -5,5 +5,6 @@ enyo.depends(
 	'BooleanBinding.js',
 	'BooleanOnlyBinding.js',
 	'StringBinding.js',
-	'InvertBooleanBinding.js'
+	'InvertBooleanBinding.js',
+    'DeferHandler.js'
 );
