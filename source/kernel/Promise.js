@@ -31,12 +31,15 @@
             //ref to this for use inside promise
             var _this = this;
             var promise = function() {
+
                 //return a new promise to use
-                return new Promise(function(resolve, reject){
+                _this.info = new Promise(function(resolve, reject){
                     //kick off the defined job, pass it resolve
                     //and reject for the promise
                     _this.job(resolve, reject);
                 });
+
+                return _this.info;
             }
 
             //kick off promise, and que up what will happen
